@@ -186,6 +186,7 @@
         console.error(`Unknown tags position: ${position}`);
       }
     },
+
     filterByTag() {
       if ($(this).hasClass("active-tag")) {
         return;
